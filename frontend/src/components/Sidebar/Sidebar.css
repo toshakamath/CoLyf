@@ -1,0 +1,55 @@
+  .sidebar__trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  
+  .sidebar__trigger:hover {
+    color: #1890ff;
+  }
+  
+  .sidebar__logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+  }
+
+  .sidebar__sider{
+    background: #001529;
+  }
+
+  .sidebar__content {
+    margin: 16px;
+    /* padding: 24px;  */
+    /* background: #fff; */
+  }
+
+  .sidebar__header {
+    background: #fff;
+    padding: 0;
+  }
+
+  .sidebar__drawer .ant-drawer-body {
+    padding: 0px;
+  }
+
+  .sidebar__drawer .ant-drawer-content, .sidebar__drawer .ant-drawer-header {
+    background: #001529;
+  }
+
+  .ant-menu-item {
+    height: auto !important;
+  }
+
+  .sidebar__heading {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .sidebar__content {
+      margin: 8px;
+    }
+  }
